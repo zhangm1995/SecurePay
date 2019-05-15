@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/commons-collections-3.0.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/commons-lang-2.1.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/ezmorph-1.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/json-lib-1.1-jdk13.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/xom-1.0d10.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

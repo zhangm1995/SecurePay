@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:theme="@android:style/Theme.NoTitleBar"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/RegisButton"
+        android:layout_width="60dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dip"
+        android:background="#00000000"
+        android:text="注册"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/loginImage"
+        android:layout_width="150dip"
+        android:layout_height="40dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dip"
+        android:src="@drawable/buddy_10" >
+    </ImageView>
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+         android:inputType="number"
+        android:ems="10"
+        android:hint="请输入手机号" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_psw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_user"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_psw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:background="#43CD80"
+        android:text="登  陆"
+        android:textColor="#FFFFFF" >
+    </Button>
+     <Button
+        android:id="@+id/btn_forgetLogin"
+        android:layout_width="250dip"
+        android:layout_height="30dip"
+        android:layout_below="@+id/btn_login"
+        android:layout_marginLeft="100dip"
+        android:layout_marginTop="5dip"
+        android:background="#00000000"
+        android:text="忘记登录密码"
+        android:textColor="#EE3B3B"
+        android:textSize="15sp" />
+
+</RelativeLayout>

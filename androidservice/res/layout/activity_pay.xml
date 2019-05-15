@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mykeyboard="http://schemas.android.com/apk/res/com.example.androidservice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:background="@drawable/background2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:background="#22000000"
+        android:orientation="vertical" >
+
+             <ImageView
+            android:id="@+id/payImage"
+            android:layout_width="150dip"
+            android:layout_height="40dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dip"
+            android:src="@drawable/buddy_10" >
+          </ImageView>
+
+              <TextView
+            android:id="@+id/payTel"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dip"
+             android:layout_below="@+id/payImage"
+            android:textColor="#FFFFFFFF"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/payName"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#FFFFFFFF"
+             android:layout_centerHorizontal="true"
+            android:layout_below="@+id/payTel"
+             >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#22000000"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:text="转账"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="16dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:text="转账金额:"
+            android:textColor="#404040"
+            android:textSize="20sp"
+             />
+
+        <EditText
+            android:id="@+id/payMoney"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:textColor="#404040"
+            android:textSize="20sp"
+             android:inputType="number"
+             />
+         
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="16dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" 
+        >
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:text="转账密码:"
+            android:textColor="#404040"
+            android:textSize="20sp"
+            
+             />
+         
+    <com.example.testkeyboard.MyKeyboard
+        android:layout_width="100dip"
+        android:layout_height="60dip"
+        android:id="@+id/payWord"
+         android:inputType="textPassword"
+        mykeyboard:xml="@xml/amountinputkeyboard"
+         />
+         
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/payButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="40dip"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#43CD80"
+        android:text="确认转账"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:background="@drawable/background2"
+    android:orientation="vertical" >
+    
+   <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="#22000000"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#22000000"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:text="个人设置"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </RelativeLayout>
+
+  <LinearLayout style="@style/wrap_layout" >
+        <!-- 上圆角-->
+        <LinearLayout style="@style/top_layout"
+            android:id="@+id/myInfo"
+            >
+            <TextView style="@style/usertext" android:text="我的资料" />
+          	<ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        
+        <!-- 分割线 -->
+          <View style="@style/bg_line"/>
+          <!-- 无圆角-->
+       <LinearLayout style="@style/mid_layout"
+            android:id="@+id/myCard">
+            <TextView style="@style/usertext" android:text="我的银行卡" />
+          	<ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+             <View style="@style/bg_line"/>
+          <!-- 下圆角-->
+       <LinearLayout style="@style/bottom_layout"
+            android:id="@+id/myPassword">
+            <TextView style="@style/usertext" android:text="密码设置" />
+          	<ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+             
+    </LinearLayout>
+    
+    
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="30dip"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#EE3B3B"
+        android:text="退出登录"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" >
+    </Button>
+
+</LinearLayout>

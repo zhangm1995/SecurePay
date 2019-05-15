@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/example/androidservice/DetailActivity.java" />
+        <ignore path="src/com/example/androidservice/MainActivity.java" />
+        <ignore path="src/com/example/androidservice/NaviActivity.java" />
+    </issue>
+</lint>
