@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="F:/Program Files/Apache Software Foundation/Tomcat 7.0/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大三上/数据库课设/图书馆/图书馆/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/commons-collections-3.0.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/commons-lang-2.1.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/ezmorph-1.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/json-lib-1.1-jdk13.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/lib/lib/xom-1.0d10.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/mail-jar/activation.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/mail-jar/cos.jar"/>
+	<classpathentry kind="lib" path="E:/杂杂杂/大四上/本专业论文/我的项目/mail-jar/mail.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+   version="2.5">
+
+<servlet>
+	<servlet-name>HelloServlet</servlet-name>
+	<servlet-class>com.myService.HelloServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>HelloServlet</servlet-name>
+	<url-pattern>/HelloServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>HelloServlet2</servlet-name>
+	<servlet-class>com.myService.HelloServlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>HelloServlet2</servlet-name>
+	<url-pattern>/HelloServlet2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>RegisterServlet</servlet-name>
+	<servlet-class>com.myService.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>RegisterServlet</servlet-name>
+	<url-pattern>/RegisterServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AccountServlet</servlet-name>
+	<servlet-class>com.myService.AccountServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AccountServlet</servlet-name>
+	<url-pattern>/AccountServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UpdateInfoServlet</servlet-name>
+	<servlet-class>com.myService.UpdateInfoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>UpdateInfoServlet</servlet-name>
+	<url-pattern>/UpdateInfoServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DeleteTokenServlet</servlet-name>
+	<servlet-class>com.myService.DeleteTokenServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>DeleteTokenServlet</servlet-name>
+	<url-pattern>/DeleteTokenServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>PasswordServlet</servlet-name>
+	<servlet-class>com.myService.PasswordServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>PasswordServlet</servlet-name>
+	<url-pattern>/PasswordServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UpdatePasswordServlet</servlet-name>
+	<servlet-class>com.myService.UpdatePasswordServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>UpdatePasswordServlet</servlet-name>
+	<url-pattern>/UpdatePasswordServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>SelectUserServlet</servlet-name>
+	<servlet-class>com.myService.SelectUserServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>SelectUserServlet</servlet-name>
+	<url-pattern>/SelectUserServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
