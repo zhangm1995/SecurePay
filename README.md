@@ -1,2 +1,2 @@
 # SecurePay
-Android pay
+Android pay server
