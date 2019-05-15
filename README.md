@@ -1,2 +1,0 @@
-# SecurePay
-Android pay
